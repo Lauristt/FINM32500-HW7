@@ -74,7 +74,8 @@ def profile_parallelism(df_pd):
     except AssertionError as e:
         print(f"\nVerification FAILED: Results are not consistent. {e}")
 
-    print("\n--- Discussion: GIL Limitations & Performance ---")
+    print("Discussion: GIL Limitations & Performance...")
+    print("Yuting: I put the analysis here (also one in the performance_report.md")
     print(f"""
         CPU Utilization (Observation):
         - During the 'Threading' run, you would see CPU usage go >100% (e.g., 300-400%) 
